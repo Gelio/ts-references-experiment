@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "components",
+            "match": "^components",
+            "order": 0
+          },
+          {
+            "name": "features",
+            "match": "^features",
+            "order": 1
+          },
+          {
+            "name": "local",
+            "match": "^\\.",
+            "order": 2
+          },
+          {
+            "name": "third-party",
+            "match": ".",
+            "order": -1
+          }
+        ]
+      }
+    ]
+  }
+}
