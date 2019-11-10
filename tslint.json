@@ -1,5 +1,6 @@
 {
   "rules": {
+    "no-duplicate-imports": true,
     "ordered-imports": [
       true,
       {

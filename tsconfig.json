@@ -1,6 +1,11 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": "src"
+    "rootDir": "src",
+    "baseUrl": "src",
+    "noEmit": true,
+    "target": "es5",
+    "lib": ["dom", "esnext"]
   },
   "include": ["src"]
 }
