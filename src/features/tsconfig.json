@@ -1,12 +1,10 @@
 {
   "extends": "../../tsconfig.base-module.json",
   "compilerOptions": {
-    // "noEmit": true,
     "rootDir": "..",
-    "baseUrl": "..",
+    "baseUrl": ".."
 
-    // "outDir": "../build",
-    "outFile": "../build/features.js"
+    // "outFile": "../build/features.js"
   },
   "include": ["."],
   "references": [

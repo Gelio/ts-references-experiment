@@ -5,12 +5,11 @@
     "baseUrl": "src",
     // "noEmit": true,
     "target": "es5",
-    "lib": ["dom", "esnext"],
+    "lib": ["dom", "esnext"]
 
     // "outDir": "dist"
 
-    "module": "amd",
-    "outFile": "./dist/index.js"
+    // "outFile": "./dist/index.js"
   },
   "include": ["src"],
   "references": [

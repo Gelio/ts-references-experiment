@@ -1,25 +1,33 @@
 {
-  "name": "ts-ordered-imports",
+  "name": "ts-references-experiment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint 'src/**/*.tsx?'",
-    "build": "tsc -b .",
-    "build:watch": "npm run build -- --watch",
-    "build:components": "tsc -b ./src/components",
-    "build:features": "tsc -b ./src/features"
+    "tsc": "tsc -b .",
+    "tsc:watch": "npm run build -- --watch",
+    "tsc:components": "tsc -b ./src/components",
+    "tsc:features": "tsc -b ./src/features",
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
     "tslint": "^5.20.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "react": "^16.11.0"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
