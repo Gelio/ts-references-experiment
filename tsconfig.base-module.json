@@ -7,6 +7,5 @@
     "composite": true,
     "target": "esnext",
     "outDir": "./src/build-dir/"
-    // "module": "amd"
   }
 }
