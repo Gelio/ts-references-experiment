@@ -7,8 +7,8 @@
         "grouped-imports": true,
         "groups": [
           {
-            "name": "components",
-            "match": "^components",
+            "name": "components or utils",
+            "match": "^(components|utils)",
             "order": 0
           },
           {

@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base-module.json",
+  "compilerOptions": {
+    // "noEmit": true,
+    "rootDir": "..",
+    "baseUrl": "..",
+
+    // "outDir": "../build",
+
+    "outFile": "../build/components.js"
+  },
+  "include": ["."],
+  "files": ["../utils.ts"]
+}

@@ -3,9 +3,22 @@
   "compilerOptions": {
     "rootDir": "src",
     "baseUrl": "src",
-    "noEmit": true,
+    // "noEmit": true,
     "target": "es5",
-    "lib": ["dom", "esnext"]
+    "lib": ["dom", "esnext"],
+
+    // "outDir": "dist"
+
+    "module": "amd",
+    "outFile": "./dist/index.js"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "references": [
+    {
+      "path": "./src/components"
+    },
+    {
+      "path": "./src/features"
+    }
+  ]
 }

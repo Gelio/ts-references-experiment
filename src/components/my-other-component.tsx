@@ -1,5 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
+import { noop } from 'utils';
+
 export const OtherComponent: FunctionComponent = () => (
-  <div>Function component</div>
+  <div onClick={noop}>Functional component</div>
 );

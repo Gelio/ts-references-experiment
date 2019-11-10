@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useReducer, Reducer } from 'react';
+import React, { FunctionComponent, Reducer, useReducer } from 'react';
 
 import { Mixer } from 'features/mixer';
 import { Pan } from 'features/pan';
